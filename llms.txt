@@ -1,0 +1,43 @@
+# Kontexo
+
+> KI, angepasst an eure Firma: eine stabile KI-Basis, die Teile, die eurer Firma fehlen, und eine feste Ansprechperson. Für Firmen ab fünf Leuten, vom Familienbetrieb bis zum Mittelstand, in jeder Branche. Aus Tirol (Terfens), betrieben in der EU.
+
+## Angebot
+
+- [Die Basis](https://kontexo.at/#angebot): die Plattform, die fertig ist. Chat mit Quellen, euer Firmenwissen, Dokumente in Word, Excel, PowerPoint und PDF, Workflows und Zugriffsrechte pro Ordner. Betrieben in der EU.
+- [Euer Puzzlestück](https://kontexo.at/#angebot): was eurer Firma fehlt, bauen wir dazu. Eure Abläufe als Workflows und die Anbindung an eure Branchensoftware, wenn sie eine Schnittstelle hat.
+- [Die Begleitung](https://kontexo.at/#angebot): neue Modelle und Funktionen prüfen wir, bauen ein, was euch nützt, und zeigen es euren Leuten. Eine feste Ansprechperson, keine Hotline.
+- [Preis](https://kontexo.at/#kosten): eine Lizenz für den ganzen Betrieb, nicht pro Person. Einrichtung und Begleitung auf Wunsch als monatliche Pauschale. Das erste Gespräch ist kostenlos, wir kommen in den Betrieb.
+
+## Beispiel
+
+- [Das Postfach am Morgen](https://kontexo.at/#fall): Kontexo liest die neuen Mails in Outlook, sucht die Antworten in den Unterlagen der Firma und legt jede Antwort als Entwurf ins Postfach. Gesendet wird von einer Person.
+
+## Wie Kontexo arbeitet
+
+- [Wissen](https://kontexo.at/#technik): Kontexo liest die Unterlagen der Firma ein und gibt bei jeder Frage nur die passenden Stellen ans Sprachmodell, mit Quelle.
+- [Agenten](https://kontexo.at/#technik): Assistenten für eine Aufgabe, mit eigener Anleitung, eigenen Ordnern und Werkzeugen.
+- [Workflows](https://kontexo.at/#technik): Abläufe in Schritten, die von selbst starten, zu einer Uhrzeit, bei einer neuen Mail oder auf Knopfdruck.
+- [Anbindungen](https://kontexo.at/#anbindungen): Outlook, Outlook-Kalender, Teams, SharePoint, OneDrive, Gmail, Google Kalender, FinanzOnline, Stripe, Jira, Confluence, jeweils mit dem Konto der Person, die fragt.
+
+## Daten
+
+- [Server und Sprachmodelle](https://kontexo.at/#daten): Kontexo und die Dateien liegen bei Hetzner in der EU, die Sprachmodelle laufen bei europäischen Anbietern.
+- [Ausnahme Websuche](https://kontexo.at/#daten-ort): die Websuche läuft über Anbieter in den USA und ist aus, bis ein Betrieb sie einschaltet.
+- [Zugriff](https://kontexo.at/#daten): jede Person sieht nur, was sie sehen darf.
+
+## Kontakt
+
+- [kontexo.at](https://kontexo.at/)
+- [michael@kontexo.at](mailto:michael@kontexo.at)
+- [+43 660 650 3435](tel:+436606503435)
+- [Wer dahintersteht](https://kontexo.at/#ueber): Gründer Michael Prokop, Terfens, Tirol. Die Kontexo FlexCo ist in Gründung.
+
+## Beispiele
+
+- [Rechnungen prüfen](https://kontexo.at/rechnungen-pruefen/index.md): Kontexo hält eine Lieferantenrechnung neben Angebot und Lieferschein, zeigt die Abweichungen mit Quelle und schreibt die Reklamation als Word-Brief. Ein Beispiel in drei Bildern.
+
+## Als Text
+
+- [Die Startseite als Markdown](https://kontexo.at/index.md)
+- [Alle Seiten in einer Datei](https://kontexo.at/llms-full.txt)

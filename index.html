@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="de-AT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontexo · KI für Firmen in Tirol und Österreich</title>
+    <meta
+      name="description"
+      content="Kontexo: eine stabile KI-Basis für eure Firma, die Teile, die euch fehlen, und eine feste Ansprechperson. Für Firmen ab fünf Leuten, aus Tirol, betrieben in der EU."
+    />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://kontexo.at/" />
+    <link rel="alternate" type="text/markdown" href="https://kontexo.at/index.md" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:url" content="https://kontexo.at/" />
+    <meta property="og:title" content="Kontexo · KI, angepasst an eure Firma" />
+    <meta
+      property="og:description"
+      content="Eine stabile KI-Basis, die Teile, die eurer Firma fehlen, und eine feste Ansprechperson. Aus Tirol, betrieben in der EU."
+    />
+    <meta property="og:image" content="https://kontexo.at/media/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Kontexo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="media/icon-48.png" sizes="48x48" type="image/png" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="media/apple-touch-icon.png" />
+    <!-- Who we are, for search engines: the name, the site, the logo, where and how to reach us.
+         The seven questions repeat #fragen word for word: change an answer in both places. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["Organization", "ProfessionalService"],
+            "@id": "https://kontexo.at/#firma",
+            "name": "Kontexo",
+            "url": "https://kontexo.at/",
+            "logo": "https://kontexo.at/media/apple-touch-icon.png",
+            "description": "KI, angepasst an eure Firma: eine stabile KI-Basis, die Teile, die euch fehlen, und eine feste Ansprechperson. Für Firmen ab fünf Leuten, aus Tirol, betrieben in der EU.",
+            "email": "michael@kontexo.at",
+            "telephone": "+43 660 650 3435",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Auweg 14",
+              "postalCode": "6123",
+              "addressLocality": "Terfens",
+              "addressRegion": "Tirol",
+              "addressCountry": "AT"
+            },
+            "areaServed": [
+              { "@type": "AdministrativeArea", "name": "Tirol" },
+              { "@type": "Country", "name": "Österreich" }
+            ],
+            "founder": {
+              "@type": "Person",
+              "name": "Michael Prokop",
+              "url": "https://michaelprokop.at/",
+              "sameAs": ["https://www.linkedin.com/in/michael-prokop-software"]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://kontexo.at/#website",
+            "url": "https://kontexo.at/",
+            "name": "Kontexo",
+            "inLanguage": "de-AT",
+            "publisher": { "@id": "https://kontexo.at/#firma" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://kontexo.at/#fragen",
+            "inLanguage": "de-AT",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Für welche Firmen ist Kontexo gedacht?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Für Firmen ab fünf Leuten, vom Familienbetrieb bis zum Mittelstand, in jeder Branche, deren Büro mit Angeboten, Rechnungen, Verträgen und Mails arbeitet. Jede Person arbeitet mit eigenen Rechten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Brauchen wir eine IT-Abteilung?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nein. Für Microsoft 365 oder Google Workspace braucht es einmal die Freigabe von der Person, die bei euch die IT betreut. Den Rest richten wir gemeinsam ein."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Müssen wir die Einrichtung dazunehmen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Nein. Kontexo gibt es auch allein, als Lizenz für euren Betrieb. Die Einrichtung lohnt sich, wenn ein Ablauf oder eine Anbindung gebaut werden soll."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Was passiert, wenn sich bei KI wieder alles ändert?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Eure Abläufe laufen weiter. Neue Modelle prüfen wir zuerst, und wir stellen erst um, wenn sie für euch besser sind."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wo liegen unsere Daten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Auf Servern in der EU: Kontexo und eure Dateien bei Hetzner, die Sprachmodelle bei europäischen Anbietern. Die eine Ausnahme ist die Websuche: Sie läuft über Anbieter in den USA und ist aus, bis ihr sie einschaltet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welche Sprachmodelle laufen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Modelle, die bei europäischen Anbietern laufen. Welches gerade das beste für euch ist, prüfen wir laufend."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Was kostet es?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Eine Lizenz für euren ganzen Betrieb, nicht pro Person: Alle im Büro können damit arbeiten. Dazu, wenn ihr wollt, die Einrichtung und die Begleitung als monatliche Pauschale. Eure Zahl bekommt ihr nach dem ersten Gespräch, schriftlich."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Before the first paint: entrances only hide content once scripts run, and ?theme= forces a theme. -->
+    <script>
+      document.documentElement.className = "js"
+      ;(function () {
+        var t = new URLSearchParams(location.search).get("theme")
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t
+      })()
+    </script>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <symbol id="i-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8.5 5.5v21" />
+          <path d="M24.5 5.5L14.5 16l10 10.5" />
+        </symbol>
+        <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" />
+        </symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12l14 0" /><path d="M13 18l6 -6" /><path d="M13 6l6 6" />
+        </symbol>
+        <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12l5 5l10 -10" />
+        </symbol>
+        <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 9l1 0" /><path d="M9 13l6 0" /><path d="M9 17l6 0" />
+        </symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /><path d="M3 7l9 6l9 -6" />
+        </symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+        </symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" />
+        </symbol>
+        <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 9l6 6l6 -6" />
+        </symbol>
+        <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" /><path d="M13 7l0 .01" /><path d="M17 7l0 .01" /><path d="M17 11l0 .01" /><path d="M17 15l0 .01" />
+        </symbol>
+        <!-- The app's own sidebar icons for Library, Agents, Workflows and Integrations (app-sidebar.tsx). -->
+        <symbol id="i-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+        </symbol>
+        <symbol id="i-robot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 6a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -4" /><path d="M12 2v2" /><path d="M9 12v9" /><path d="M15 12v9" /><path d="M5 16l4 -2" /><path d="M15 14l4 2" /><path d="M9 18h6" /><path d="M10 8v.01" /><path d="M14 8v.01" />
+        </symbol>
+        <symbol id="i-route" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 17h4v4h-4l0 -4" /><path d="M17 3h4v4h-4l0 -4" /><path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+        </symbol>
+        <symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9.785 6l8.215 8.215l-2.054 2.054a5.81 5.81 0 1 1 -8.215 -8.215l2.054 -2.054" /><path d="M4 20l3.5 -3.5" /><path d="M15 4l-3.5 3.5" /><path d="M20 9l-3.5 3.5" />
+        </symbol>
+        <symbol id="i-world" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M3.6 9h16.8" /><path d="M3.6 15h16.8" /><path d="M11.5 3a17 17 0 0 0 0 18" /><path d="M12.5 3a17 17 0 0 1 0 18" />
+        </symbol>
+        <symbol id="i-pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -12" /><path d="M14 6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -12" />
+        </symbol>
+        <symbol id="i-replay" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" /><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+        </symbol>
+        <symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 4v16l13 -8l-13 -8" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <div class="nav-in wrap">
+        <a class="wordmark" href="#top">
+          <span class="mark"><svg aria-hidden="true"><use href="#i-mark" /></svg></span>
+          Kontexo
+        </a>
+        <div class="nav-links">
+          <a href="#angebot">Angebot</a>
+          <a href="#fall">Beispiel</a>
+          <a href="#anbindungen">Anbindungen</a>
+          <a href="#daten">Zugriff und Daten</a>
+          <a href="#fragen">Fragen</a>
+          <a href="#ueber">Über uns</a>
+          <a class="button nav-call" href="tel:+436606503435" aria-label="Anrufen"><svg aria-hidden="true"><use href="#i-phone" /></svg></a>
+          <a class="button" href="#kontakt">Erstgespräch<span class="long"> vereinbaren</span></a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-head wrap">
+        <h1 class="reveal">KI, angepasst an eure Firma</h1>
+      </div>
+
+      <div class="hero-copy">
+        <p class="lede reveal" style="--i: 1">
+          <span class="lede-hit">KI ändert sich jede Woche.</span>
+          Wir halten Schritt, damit ihr es nicht müsst:<br />
+          auf einer stabilen Basis, <span class="nowrap">mit den Teilen, die eure Firma braucht.</span>
+        </p>
+        <p class="who reveal" style="--i: 2">
+          Für Firmen ab fünf Leuten, vom Familienbetrieb bis zum Mittelstand, in jeder Branche. Aus Tirol, betrieben in
+          der EU.
+        </p>
+        <div class="actions reveal" style="--i: 3">
+          <a class="button" href="#kontakt">Erstgespräch vereinbaren <svg aria-hidden="true"><use href="#i-arrow" /></svg></a>
+          <span class="quiet">Kostenlos. Wir kommen zu euch in den Betrieb.</span>
+        </div>
+      </div>
+
+      <div class="stage">
+        <img src="media/flieder-buehne.webp" srcset="media/flieder-buehne-1100.webp 1100w, media/flieder-buehne.webp 2200w" sizes="100vw" alt="" width="2200" height="1617" fetchpriority="high" />
+        <figure class="stage-panel demo" data-ui aria-label="Nachgestellt mit den Bausteinen von Kontexo: Ein Satz im Chat beschreibt einen Ablauf. Daraus entsteht ein Workflow mit vier Schritten: neue Rechnung, mit dem Angebot vergleichen, Reklamation schreiben, Reklamation freigeben. Ein Testlauf hakt die ersten drei ab und wartet bei der Freigabe auf eine Person.">
+          <div id="demo-root"></div>
+          <button class="demo-again" type="button" aria-label="Anhalten" hidden>
+            <svg aria-hidden="true"><use href="#i-pause" /></svg>
+          </button>
+        </figure>
+      </div>
+    </header>
+
+    <main>
+      <section class="parts wrap" id="angebot" aria-labelledby="angebot-h">
+        <h2 id="angebot-h" class="reveal">Drei Teile, die zusammenpassen</h2>
+        <ul class="parts-list">
+          <li class="reveal">
+            <strong>Die Basis</strong>
+            Die Plattform, die fertig ist: Chat mit Quellen, euer Firmenwissen, Dokumente in Word, Excel, PowerPoint und
+            PDF, Workflows und Zugriffsrechte pro Ordner. Betrieben in der EU.
+          </li>
+          <li class="reveal" style="--i: 1">
+            <strong>Euer Puzzlestück</strong>
+            Was eurer Firma fehlt, bauen wir dazu: eure Abläufe als Workflows, und die Anbindung an eure
+            Branchensoftware, wenn sie eine Schnittstelle hat.
+          </li>
+          <li class="reveal" style="--i: 2">
+            <strong>Die Begleitung</strong>
+            Neue Modelle und Funktionen kommen laufend. Wir prüfen sie, bauen ein, was euch nützt, und zeigen es euren
+            Leuten. Ihr habt eine feste Ansprechperson, keine Hotline.
+          </li>
+        </ul>
+      </section>
+
+      <section class="showcase" id="fall" aria-labelledby="fall-h">
+        <div class="wrap">
+          <div class="showcase-head">
+            <h2 id="fall-h" class="reveal">Das Postfach am Morgen</h2>
+            <p class="reveal" style="--i: 1">
+              Kontexo liest die neuen Mails und schreibt Antworten für die, die eine brauchen. Gesendet wird von
+              euch.
+            </p>
+          </div>
+          <div class="case">
+            <div class="case-side">
+            <ol class="case-steps">
+              <li class="reveal">
+                <strong>Lesen.</strong>
+                Kontexo liest die Mails in eurem Outlook und sucht die Antworten in euren Unterlagen: Preisliste,
+                Verträge, offene Posten, Protokolle.
+              </li>
+              <li class="reveal" style="--i: 1">
+                <strong>Entwerfen.</strong>
+                Jede Antwort liegt als Entwurf in eurem Outlook, mit den Zahlen aus den Quellen. Was keine Antwort
+                braucht, bleibt liegen.
+              </li>
+              <li class="reveal" style="--i: 2">
+                <strong>Senden.</strong>
+                Ihr lest durch, ändert, was nötig ist, und schickt mit einem Klick aus eurem eigenen Postfach.
+              </li>
+            </ol>
+            <p class="case-more reveal" style="--i: 3"><a href="rechnungen-pruefen/">Noch ein Beispiel: Rechnungen prüfen <svg aria-hidden="true"><use href="#i-arrow" /></svg></a></p>
+            </div>
+            <figure class="case-shot reveal" style="--i: 1">
+              <!-- A phone gets the turn drawn as wide as a phone, so the words stay readable (recording/postfach.cjs). -->
+              <picture>
+              <source media="(max-width: 680px)" srcset="media/postfach-m.webp" width="760" height="3638" />
+              <img src="media/postfach.webp" srcset="media/postfach-860.webp 860w, media/postfach.webp 1720w" sizes="(min-width: 1081px) min(55vw, 830px), 92vw" width="1720" height="2426" loading="lazy" alt="Kontexo hat sieben Antworten als Entwürfe in Outlook gelegt, an Bau Tannrain, Zimmerei Hochleger, Gartenbau Sonnrain, Farbwerk Inn, Installationen Wattenbach und Hubtechnik Mitterfeld. Darunter fasst es die Antworten zusammen und nennt vierzehn Quellen: Preisliste, Rahmenvertrag, Liefer- und Zahlungsbedingungen, offene Posten, Protokoll, Wartungsvertrag und die acht Mails." />
+              </picture>
+              <figcaption>Beispiel mit den Unterlagen einer erfundenen Tiroler Firma.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="how wrap" id="technik" aria-labelledby="technik-h">
+        <h2 id="technik-h" class="reveal quiet-h">Wie Kontexo arbeitet</h2>
+        <ul class="how-rows">
+          <li class="reveal">
+            <svg aria-hidden="true"><use href="#i-folder" /></svg>
+            <strong>Wissen</strong>
+            <p>
+              Kontexo liest eure Unterlagen ein. Bei jeder Frage sucht es die passenden Stellen heraus und gibt nur die
+              ans Sprachmodell, mit Quelle. So bleibt jede Antwort schnell und günstig, auch wenn die Ablage wächst. Das
+              Modell läuft in der EU und bewahrt den Inhalt nach der Antwort nicht auf.
+            </p>
+          </li>
+          <li class="reveal" style="--i: 1">
+            <svg aria-hidden="true"><use href="#i-robot" /></svg>
+            <strong>Agenten</strong>
+            <p>
+              Ein Agent ist ein Assistent für eine Aufgabe, mit eigener Anleitung, eigenen Ordnern und den Werkzeugen,
+              die er braucht. Zum Beispiel einer für Angebote und einer für die Buchhaltung.
+            </p>
+          </li>
+          <li class="reveal" style="--i: 2">
+            <svg aria-hidden="true"><use href="#i-route" /></svg>
+            <strong>Workflows</strong>
+            <p>
+              Abläufe in Schritten, die von selbst starten: zu einer Uhrzeit, bei einer neuen Mail oder auf Knopfdruck.
+              Ihr beschreibt den Ablauf in Worten, Kontexo baut ihn.
+            </p>
+          </li>
+          <li class="reveal" style="--i: 3">
+            <svg aria-hidden="true"><use href="#i-plug" /></svg>
+            <strong>Anbindungen</strong>
+            <p>
+              Outlook, Teams, SharePoint, Gmail, FinanzOnline und mehr, jeweils mit dem Konto der Person, die fragt.
+              Die ganze Liste steht <a href="#anbindungen">gleich darunter</a>.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="connect" id="anbindungen" aria-labelledby="anbindungen-h">
+        <div class="connect-head wrap">
+          <h2 id="anbindungen-h" class="reveal quiet-h">Verbunden mit dem, was ihr habt</h2>
+          <p class="reveal" style="--i: 1">
+            Postfach, Teams und Ablage verbindet jede Person mit dem eigenen Konto. Kontexo sieht dort nur, was diese
+            Person selbst sehen darf.
+          </p>
+        </div>
+        <div class="fields">
+          <div class="field">
+            <div class="field-in wrap">
+              <div class="field-name">
+                <h3>Microsoft 365</h3>
+                <p class="field-clause">Mit echten Konten gelaufen: Outlook, Teams und SharePoint. Kalender und OneDrive sind gebaut.</p>
+              </div>
+              <ul class="links">
+                <li><img src="media/logos/outlook.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Outlook</strong>Mails suchen, lesen, beantworten. Ihr sendet.</span></li>
+                <li><img src="media/logos/outlook-kalender.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Outlook-Kalender</strong>Termine lesen.</span></li>
+                <li><img src="media/logos/teams.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Teams</strong>Chats, Kanäle und Besprechungen samt Mitschrift.</span></li>
+                <li><img src="media/logos/sharepoint.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>SharePoint</strong>Ordner einlesen, mit den Rechten der Person, die fragt.</span></li>
+                <li><img src="media/logos/onedrive.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>OneDrive</strong>Dateien suchen und lesen, Ordner einlesen.</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="field">
+            <div class="field-in wrap">
+              <div class="field-name">
+                <h3>Google Workspace</h3>
+                <p class="field-clause">Gmail und Kalender sind gebaut, noch nicht mit einem echten Konto gelaufen.</p>
+              </div>
+              <ul class="links">
+                <li><img src="media/logos/gmail.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Gmail</strong>Mails suchen, lesen, beantworten. Ihr sendet.</span></li>
+                <li><img src="media/logos/google-kalender.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Google Kalender</strong>Termine lesen, samt Link zur Besprechung.</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="field">
+            <div class="field-in wrap">
+              <div class="field-name">
+                <h3>Ämter</h3>
+                <p class="field-clause">Das Firmenbuch ist mit echtem Zugang gelaufen, FinanzOnline ist gebaut.</p>
+              </div>
+              <ul class="links">
+                <li><img src="media/logos/finanzonline.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>FinanzOnline</strong>Post vom Finanzamt lesen und ablegen. Eingereicht wird nichts.</span></li>
+                <li><svg aria-hidden="true"><use href="#i-building" /></svg><span><strong>Firmenbuch</strong>Firmen nachschlagen: Sitz, Rechtsform, Geschäftsführung.</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="field">
+            <div class="field-in wrap">
+              <div class="field-name">
+                <h3>Weitere</h3>
+                <p class="field-clause">Gebaut, noch nicht mit einem echten Konto gelaufen.</p>
+              </div>
+              <ul class="links">
+                <li><img src="media/logos/stripe.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Stripe</strong>Kunden, Rechnungen und Zahlungen nachsehen. Nur lesend.</span></li>
+                <li><img src="media/logos/jira.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Jira</strong>Vorgänge suchen und lesen.</span></li>
+                <li><img src="media/logos/confluence.svg" alt="" width="32" height="32" loading="lazy" /><span><strong>Confluence</strong>Seiten suchen und lesen.</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="field">
+            <div class="field-in wrap">
+              <div class="field-name">
+                <h3>Euer Programm</h3>
+              </div>
+              <p class="field-say">Fehlt eines? Das ist euer Puzzlestück: Hat eure Branchensoftware eine Schnittstelle, bauen wir die Anbindung.</p>
+            </div>
+          </div>
+        </div>
+        <div class="connect-foot wrap">
+          <p class="connect-admin">Für Microsoft 365 und Google Workspace richtet einmal ein, wer bei euch die IT betreut. Das erledigen wir gemeinsam.</p>
+        </div>
+      </section>
+
+      <section class="data wrap" id="daten" aria-labelledby="daten-h">
+        <div class="data-head">
+          <h2 id="daten-h" class="reveal quiet-h">Jede Person sieht nur, was sie sehen darf</h2>
+          <p class="reveal" style="--i: 1">Wer welchen Ordner sieht, bestimmt ihr. Und eure Daten liegen in der EU.</p>
+        </div>
+        <ul class="data-list reveal" style="--i: 1">
+          <li><strong>Server in der EU.</strong> Kontexo läuft bei Hetzner in Deutschland, dort liegen auch eure Dateien.</li>
+          <li><strong>Sprachmodelle in der EU.</strong> Bei europäischen Anbietern, vermittelt über cortecs aus Wien. Freigeschaltet sind nur die drei auf seiner Geheimhaltungsliste: OVH, TensorX und AKI.</li>
+          <li><strong>Kein Training.</strong> Zero Data Retention ist vertraglich vereinbart: Der Inhalt eurer Anfragen wird nach der Antwort nicht aufbewahrt.</li>
+          <li><strong>Gekapselt.</strong> Die Datenbank trennt eure Firma von allen anderen.</li>
+          <li><strong>Zugänge geschützt.</strong> Anmeldung mit zweitem Faktor, Zugangsdaten verschlüsselt. Wie lange Chats bleiben, stellt ihr ein.</li>
+          <li><strong>Mit Vertrag.</strong> Ein Vertrag zur Auftragsverarbeitung gehört dazu.</li>
+        </ul>
+      </section>
+
+      <section class="start wrap" id="anfangen" aria-labelledby="anfangen-h">
+        <h2 id="anfangen-h" class="reveal quiet-h">So fangen wir an</h2>
+        <ol class="start-steps">
+          <li class="reveal">
+            <strong>Wir sehen uns euer Büro an.</strong>
+            Kostenlos und unverbindlich: Ihr zeigt uns zwei, drei Abläufe, die Zeit kosten. Danach bekommt ihr einen
+            schriftlichen Vorschlag mit Preis.
+          </li>
+          <li class="reveal" style="--i: 1">
+            <strong>Wir bauen, was fehlt.</strong>
+            Bei euch im Betrieb, an euren Unterlagen, und wir zeigen euren Leuten, wie sie selbst weiterbauen.
+          </li>
+          <li class="reveal" style="--i: 2">
+            <strong>Wir bleiben eure Ansprechperson.</strong>
+            Für Anbindungen, neue Modelle und alles, was ihr nicht selbst bauen wollt.
+          </li>
+        </ol>
+        <p class="start-alone reveal">
+          Kontexo gibt es auch allein, als Lizenz für euren Betrieb. Wir empfehlen, mit einem Ablauf gemeinsam
+          anzufangen: Dann seht ihr an euren eigenen Unterlagen, was es kann.
+        </p>
+      </section>
+
+      <section class="faq wrap" id="fragen" aria-labelledby="fragen-h">
+        <h2 id="fragen-h" class="reveal quiet-h">Häufige Fragen</h2>
+        <div class="faq-list reveal" style="--i: 1">
+          <details name="fragen" id="fuer-wen" open>
+            <summary>Für welche Firmen ist Kontexo gedacht?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Für Firmen ab fünf Leuten, vom Familienbetrieb bis zum Mittelstand, in jeder Branche, deren Büro mit Angeboten, Rechnungen, Verträgen und Mails arbeitet. Jede Person arbeitet mit eigenen Rechten.</p>
+          </details>
+          <details name="fragen" id="it">
+            <summary>Brauchen wir eine IT-Abteilung?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Nein. Für Microsoft 365 oder Google Workspace braucht es einmal die Freigabe von der Person, die bei euch die IT betreut. Den Rest richten wir gemeinsam ein.</p>
+          </details>
+          <details name="fragen" id="einrichtung">
+            <summary>Müssen wir die Einrichtung dazunehmen?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Nein. Kontexo gibt es auch allein, als Lizenz für euren Betrieb. Die Einrichtung lohnt sich, wenn ein Ablauf oder eine Anbindung gebaut werden soll.</p>
+          </details>
+          <details name="fragen" id="aenderungen">
+            <summary>Was passiert, wenn sich bei KI wieder alles ändert?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Eure Abläufe laufen weiter. Neue Modelle prüfen wir zuerst, und wir stellen erst um, wenn sie für euch besser sind.</p>
+          </details>
+          <details name="fragen" id="daten-ort">
+            <summary>Wo liegen unsere Daten?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Auf Servern in der EU: Kontexo und eure Dateien bei Hetzner, die Sprachmodelle bei europäischen Anbietern. Die eine Ausnahme ist die Websuche: Sie läuft über Anbieter in den USA und ist aus, bis ihr sie einschaltet.</p>
+          </details>
+          <details name="fragen" id="modelle">
+            <summary>Welche Sprachmodelle laufen?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Modelle, die bei europäischen Anbietern laufen. Welches gerade das beste für euch ist, prüfen wir laufend.</p>
+          </details>
+          <details name="fragen" id="kosten">
+            <summary>Was kostet es?<svg aria-hidden="true"><use href="#i-down" /></svg></summary>
+            <p>Eine Lizenz für euren ganzen Betrieb, nicht pro Person: Alle im Büro können damit arbeiten. Dazu, wenn ihr wollt, die Einrichtung und die Begleitung als monatliche Pauschale. Eure Zahl bekommt ihr nach dem ersten Gespräch, schriftlich.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="letter wrap" id="ueber" aria-labelledby="ueber-h">
+        <h2 id="ueber-h" class="reveal quiet-h">Wer dahintersteht</h2>
+        <div class="letter-body">
+          <figure class="letter-head reveal" style="--i: 1">
+            <img src="media/michael.jpg" alt="Michael Prokop" width="240" height="238" loading="lazy" />
+            <figcaption>Michael Prokop, Gründer von Kontexo</figcaption>
+          </figure>
+          <div class="letter-text reveal" style="--i: 2">
+            <p>Ich habe Kontexo gegründet, weil in Büros zu viel Zeit mit Suchen, Abtippen und immer gleichen Briefen verloren geht.</p>
+            <p>Vor der Informatik habe ich Bäcker gelernt und war Kunstmaler.</p>
+            <p>Kontexo ist aus meiner Bachelorarbeit über KI-Agenten entstanden. Das Institut für Informatik der Universität Innsbruck hat sie mit dem <mark>Best Bachelor Thesis Award 2025/26</mark> ausgezeichnet.</p>
+          </div>
+          <figure class="letter-head letter-next reveal" style="--i: 3">
+            <img src="media/adriano.jpg" alt="Adriano Paganini" width="240" height="238" loading="lazy" />
+            <figcaption>Adriano Paganini, Workflows und Anbindungen</figcaption>
+          </figure>
+          <div class="letter-text reveal" style="--i: 4">
+            <p>Ich baue bei Kontexo an den Workflows und an den Anbindungen.</p>
+            <p>Gerade schließe ich mein Informatikstudium an der Universität Innsbruck ab. Mein Fach sind Backends: Schnittstellen, Ereignisse, vernetzte Geräte.</p>
+            <p>Daneben bin ich Skilehrer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact wrap" id="kontakt" aria-labelledby="kontakt-h">
+        <div class="contact-main">
+          <h2 id="kontakt-h" class="reveal">Reden wir über eure Firma</h2>
+          <!-- No action: main.js writes the mail. A mailto: action counts as an insecure form target. -->
+          <form class="ask reveal" style="--i: 1">
+            <label class="sr-only" for="wer">Euer Name und eure Firma</label>
+            <input id="wer" type="text" placeholder="Euer Name und eure Firma" autocomplete="organization" />
+            <label class="sr-only" for="was">Anmerkungen</label>
+            <input id="was" type="text" placeholder="Anmerkungen" autocomplete="off" />
+            <button class="button" type="submit">Erstgespräch vereinbaren <svg aria-hidden="true"><use href="#i-arrow" /></svg></button>
+          </form>
+          <p class="ask-note reveal" style="--i: 2">Öffnet euer Mailprogramm mit einer fertigen Nachricht an uns. Diese Seite speichert nichts.</p>
+        </div>
+        <ul class="contact-rows reveal" style="--i: 2" aria-label="Kontakt">
+          <li><svg aria-hidden="true"><use href="#i-mail" /></svg><a href="mailto:michael@kontexo.at">michael@kontexo.at</a><span class="copy-say" role="status"></span></li>
+          <li><svg aria-hidden="true"><use href="#i-phone" /></svg><a href="tel:+436606503435">+43 660 650 3435</a><span class="copy-say" role="status"></span></li>
+          <li><svg aria-hidden="true"><use href="#i-pin" /></svg>Terfens, Tirol</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer wrap">
+      <span>Kontexo, KI angepasst an eure Firma. Aus Tirol</span>
+      <nav aria-label="Fußzeile">
+        <a href="#kontakt">Kontakt</a>
+        <a href="rechnungen-pruefen/">Rechnungen prüfen</a>
+        <a href="impressum/">Impressum</a>
+        <a href="datenschutz/">Datenschutz dieser Seite</a>
+      </nav>
+      <span class="end">© 2026 Kontexo</span>
+    </footer>
+
+    <script src="main.js" defer></script>
+    <script src="demo.js" type="module"></script>
+  </body>
+</html>
